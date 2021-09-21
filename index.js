@@ -1,24 +1,22 @@
 import React, {
   cloneElement,
   createElement,
-  useEffect,
   useRef,
-  useState,
 } from 'react';
 
 import PropTypes from 'prop-types';
 
 import { Route, Switch, matchPath, useLocation } from 'react-router-dom';
 
-import TransitionMotion from 'react-motion/lib/TransitionMotion';
-import spring from 'react-motion/lib/spring';
+import TransitionMotion from 're.d.react-motion/lib/TransitionMotion';
+import spring from 're.d.react-motion/lib/spring';
 
 // Helpers
 
 function ensureSpring(styles) {
   const obj = {};
 
-  for (var key in styles) {
+  for (let key in styles) {
     const value = styles[key];
     if (typeof value === 'number') {
       obj[key] = spring(value);
@@ -52,7 +50,7 @@ function RouteTransition({
   const defaultStyles =
     runOnMount === false
       ? null
-      : children == undefined
+      : children === undefined
       ? []
       : [
           {
@@ -63,7 +61,7 @@ function RouteTransition({
         ];
 
   const styles =
-    children == undefined
+    children === undefined
       ? []
       : [
           {

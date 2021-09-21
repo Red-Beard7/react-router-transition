@@ -1,5 +1,5 @@
 {
-  "name": "react-router-transition",
+  "name": "re.d.react-router-transition",
   "version": "2.1.0",
   "description": "A thin layer over react-motion for animating routes in react-router.",
   "main": "lib/index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maisano/react-router-transition.git"
+    "url": "https://github.com/Red-Beard7/react-router-transition.git"
   },
   "keywords": [
     "react",
@@ -24,17 +24,17 @@
   "author": "maisano",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/maisano/react-router-transition/issues"
+    "url": "https://github.com/Red-Beard7/re.d.react-router-transition/issues"
   },
-  "homepage": "https://github.com/maisano/react-router-transition#readme",
+  "homepage": "https://github.com/Red-Beard7/re.d.react-router-transition#readme",
   "peerDependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-router-dom": "^5.0.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
   },
   "dependencies": {
     "prop-types": "^15.7.2",
-    "react-motion": "^0.5.2"
+    "re.d.react-motion": "^1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
@@ -42,8 +42,8 @@
     "@babel/preset-env": "^7.6.2",
     "@babel/preset-react": "^7.0.0",
     "prettier": "^1.18.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-router-dom": "^5.1.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
   }
 }

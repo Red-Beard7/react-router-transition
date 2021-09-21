@@ -1,7 +1,7 @@
 {
-  "name": "react-router-transition-example",
+  "name": "re.d.react-router-transition-example",
   "version": "1.0.0",
-  "description": "An example showcasing some react-router-transition usage",
+  "description": "An example showcasing some re.d.react-router-transition usage",
   "scripts": {
     "build": "NODE_ENV=production webpack -p",
     "start": "webpack-dev-server --history-api-fallback"

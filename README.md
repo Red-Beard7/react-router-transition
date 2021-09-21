@@ -9,12 +9,12 @@ of React compatible with hooks, as well as version `5.x` of `react-router-dom`.
 
 ### Installation
 
-`npm install --save react-router-transition react-router-dom`
+`npm install --save re.d.react-router-transition react-router-dom`
 
 ### Example Usage
 ```jsx
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { AnimatedSwitch } from 'react-router-transition';
+import { AnimatedSwitch } from 're.d.react-router-transition';
 
 export default () => (
   <Router>

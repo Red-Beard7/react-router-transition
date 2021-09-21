@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 import LandingScreen from './Screens/Home';
 import DocumentationScreen from './Screens/Docs';
 
-import { AnimatedSwitch, AnimatedRoute, spring } from 'react-router-transition';
+import { AnimatedSwitch, AnimatedRoute, spring } from '../../index';
 
 import './globals.css';
 import './grayscale-prism-theme.css';
